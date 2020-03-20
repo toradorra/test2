@@ -49,7 +49,7 @@ a {
   a:hover, a:active, a:focus {
     color: #0bbbe6;
     outline: none;
-    text-decoration: none; }
+    text-decoration: none;}
 
 p {
   margin-bottom: 20px; }
@@ -58,7 +58,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0; 
+  }
+  
+h1 {
+  font-size: 40px;}
+  h1:hover {
+    font-size: 60px}
 
 ::-webkit-selection {
   color: #fff;
